@@ -9,3 +9,8 @@ Method:
 3. Enable PowerShell execution **Set-ExecutionPolicy Unrestricted -Force**
 4. On the prompt, change to the directory where you extracted the files: e.g. - cd c:\temp
 5. Next, to run either script, enter in the following: e.g. - **.\W2016_STD_User_Customization.ps1**
+
+# What it does
+
+This script will remove the scheduled task who prompt "Server Manager" at logon.
+After that, he will place the same desktop icons as Windows 10 for all users.
